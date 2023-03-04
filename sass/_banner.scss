@@ -1,0 +1,29 @@
+@use "./mixins" as mixins;
+
+.banner {
+  width: 100%;
+  margin-top: 150px;
+
+  &__container {
+    @include mixins.flexContent;
+    height: 81px;
+    background-color: #00ffa3;
+    
+    & ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & li{
+          font-family: Space Grotesk;
+          margin-left: 50px;
+          font-size: 24px;
+          font-weight: 700;
+          list-style: circle;
+          line-height: 1.2;
+          color: black;
+        }
+    }
+    
+  }
+}
