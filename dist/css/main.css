@@ -267,6 +267,7 @@ q:before, q:after {
 }
 .content__container_top_text h1 {
   text-transform: uppercase;
+  display: inline;
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: #363636;
